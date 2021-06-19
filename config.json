@@ -32,7 +32,7 @@
         "verifiedroleids": ["your-roles-to-specify-verified-users"],
 
         "useautorole": true,
-        "memberroleids": ["855871600237740034"],
+        "memberroleids": ["855908293033197568"],
 
         "useembeds": true,
         "useservername": true,
