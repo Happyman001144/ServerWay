@@ -1,0 +1,244 @@
+{
+    "main_config": {
+        "token": "ODU1NDg5MjUwOTUwMjUwNTE3.YMzOcw.lc1af-s5RIInp8DtAx2yU4WklAc",
+        "prefix": "!",
+        "license_key": "FEATURE COMING VERY SOON!",
+        "yourservername": "ServerWay",
+        "yourserverid": "855151918736867329",
+        "botownerid": "595304077781630977",
+        "aboutsection": "ServerWay discord bot",
+        "copyright": "© 2021 ServerWay",
+        "colorhex": "#fed700",
+        "voicechanneltojoin": "855151919512158252",
+        "port": "8020",
+        "debugmode": false
+    },
+
+    "presence_config": [
+        { "name": "ServerWay.ga", "type": "WATCHING", "status": "dnd" }
+    ],
+
+    "mysql": {
+        "host": "sql4.freemysqlhosting.net",
+        "user": "sql4420131",
+        "password": "55ERajxGGs",
+        "database": "sql4420131"
+    },
+
+    "new_user_config": {
+        "enabled": true,
+
+        "useVerificationSystem": false,
+        "verifiedroleids": ["your-roles-to-specify-verified-users"],
+
+        "useautorole": true,
+        "memberroleids": ["855871600237740034"],
+
+        "useembeds": true,
+        "useservername": true,
+
+        "usejoinmessage": true,
+        "userjoinchannels": ["855151919310700647"],
+        "userjoinheader": "Welcome to the official ServerWay discord server!",
+        "userjoinmessage": "Please read the rules channel before taking part in the server!",
+
+        "useleavemessage": true,
+        "userleavechannels": ["855151919310700647"],
+        "userleaveheader": "Goodbye, thanks for visiting the official ServerWay discord server!",
+        "userleavemessage": "We hope you enjoyed your stay!"
+    },
+
+    "serverstats_config": {
+        "enabled": true,
+
+        "useMemberCount": true,
+        "membercountchannelid": "855845683142590534",
+
+        "useUserCount": false,
+        "usercountchannelid": "your-user-count-channel-id",
+
+        "useBotCount": false,
+        "botcountchannelid": "your-bot-count-channel-id"
+
+    },
+
+    "moderation_config": {
+        "enabled": true,
+
+        "enable_dm_command": true,
+        "dm_command_use_embeds": true,
+
+        "mutedroleid": "855883610011205692"
+    },
+
+    "assistant_config": {
+        "enabled": false,
+
+        "usePayPal": false,
+        "paypalLink": "https://hyperz.dev/paypal",
+
+        "useCashApp": false,
+        "cashappLink": "https://hyperz.dev/cashapp",
+
+        "useVenmo": false,
+        "venmoLink": "https://hyperz.dev/venmo",
+
+        "reviewschannelids": ["your-reviews-channel-id"],
+        "suggestionschannelids": ["your-suggestions-channel-id"],
+
+        "client_role_id": "your-clients-role-id",
+
+        "useSupportCommands": false,
+        "memberSupportMessage": "Hello,\nIf you're requesting support please **use a support channel**! No support is provided in this channel.",
+        "customerSupportMessage": "Hello,\nIf you're requesting support for a paid product please **use the customer channels**! No support will be provided here.",
+
+        "useListingCommand": false,
+        "noListingImageFound": "https://hyperz.dev/images/noimagefound.png",
+
+        "tosLink": "https://hyperz.dev/tos",
+        "yourwebsite": "https://hyperz.dev/"
+    },
+
+    "altprev_config": {
+        "enabled": true,
+
+        "banalts": true,
+        "dmalts": true,
+
+        "timelimit": "2592000000"
+    },
+
+    "filter_config": {
+        "enabled": true,
+
+        "bad_words": ["nigger", "nigga"],
+
+        "useMemes": false,
+        "memeSubRedditName": "meme",
+
+        "useInsults": false,
+        "insultSubRedditName": "insults",
+
+        "use_ping_prevention": true,
+        "noping_userids": ["595304077781630977"],
+        "noping_imageurl": "https://cdn.discordapp.com/attachments/851134373231067177/855850387281018890/DoNotPingMePNG.png"
+    },
+
+    "tickets_config": {
+        "enabled": false,
+
+        "useTicketReactions": false,
+        "reactionPanelMessageID": "your-panel-message-id",
+        "reactionEmojiName": "🎫",
+        "ticketThumbnailURL": "https://hyperz.dev/images/logo.png",
+
+        "ticketPanelColorHEX": "#16c98b",
+        "ticketPanelThumbnailURL": "https://hyperz.dev/images/logo.png",
+
+        "ticketscategoryid": "your-category-id",
+        "newticketmessage": "We have created your ticket! Please wait for a staff member to enter the ticket!"
+    },
+
+    "giveaways_config": {
+        "enabled": true,
+
+        "startgiveawaymessage": "@everyone\n\n🎉🎉 **GIVEAWAY** 🎉🎉",
+        "endgiveawaymessage": "@everyone\n\n🎉🎉 **GIVEAWAY ENDED** 🎉🎉",
+
+        "updateCountdownEvery": 10000,
+        "hasGuildMembersIntent": false,
+        "botsCanWin": false,
+        "embedColor": "#fed700",
+        "embedColorEnd": "#fed700",
+        "reaction": "🎉"
+    },
+
+    "leveling_config": {
+        "enabled": true,
+
+        "clearUsersOnLeave": true,
+        "levelUpMultiplier": 300,
+
+        "moreXPForAttachments": true,
+        "attachmentsBonus": 1,
+
+        "moreXPForLongerMessages": true,
+        "msgCharacterRequirement": 650,
+        "longerMSGSBonus": 1
+    },
+
+    "reactionroles": {
+        "enabled": false,
+
+        "reactions": [
+            {"roleid": "role-id-to-use", "messageid": "some-message-id", "workflow": 2, "reactionname": "🍓"},
+            {"roleid": "role-id-to-use", "messageid": "some-message-id", "workflow": 3, "reactionname": "🍇"},
+            {"roleid": "role-id-to-use", "messageid": "some-message-id", "workflow": 1, "reactionname": "🍍"}
+        ]
+    },
+
+    "permissions_config": {
+        "staffperms": ["855882699449172039"],
+        "blacklistperms": ["855882699449172039"],
+        "ticketmanagers": ["855882699449172039"],
+        "assistantmanagers": ["855882699449172039"],
+        "revivechatperms": ["855882699449172039"],
+        "stickymsgperms": ["855882699449172039"],
+        "giveawayperms": ["855882699449172039"],
+        "serverlockperms": ["855882699449172039"],
+        "bypassfilters": ["855882699449172039"]
+    },
+
+    "logging_config": {
+        "enable_deleted_messages_logging": true,
+        "deleted_messages_channels": ["855151919512158256"],
+
+        "enable_edited_messages_logging": true,
+        "edited_messages_channels": ["855151919512158256"],
+
+        "enable_channel_logging": true,
+        "channel_logging_channels": ["855151919512158256"],
+
+        "enable_role_logging": true,
+        "role_logging_channels": ["855151919512158256"],
+
+        "enable_command_logging": true,
+        "command_logging_channels": ["855151919512158256"],
+
+        "enable_invite_logging": true,
+        "invite_logging_channels": ["855151919512158256"],
+
+        "enable_ticketarchive_logging": true,
+        "ticketarchive_logging_channels": ["855151919512158256"],
+
+        "enable_botsdm_logging": true,
+        "botsdm_logging_channels": ["855151919512158256"],
+
+        "enable_serverlock_logging": true,
+        "serverlock_logging_channels": ["855151919512158256"],
+
+        "enable_altprev_logging": true,
+        "altprev_logging_channels": ["855151919512158256"]
+    },
+
+    "other_configuration": {
+        "usemusic": true,
+        "deleteSnipes": true,
+
+        "enableBlacklisting": false,
+        "logBlacklistsChannels": ["your-logging-channel-id"],
+        "blacklistedRoleID": "your-blacklisted-role-id",
+        "roleToGiveWhenUnBlacklisted": "your-role-id",
+        "addBlacklistImageURL": "https://images.emojiterra.com/twitter/512px/1f528.png",
+        "removeBlacklistImageURL": "https://www.pngkey.com/png/full/89-899418_broken-handcuffs-broken-handcuffs-transparent.png",
+        "autoBanImageURL": "https://i.dlpng.com/static/png/5322872-thor-logo-free-logo-download-allogos-thor-logo-png-1000_1000_preview.png",
+
+        "useReviver": false,
+        "reviver_messages": ["What’s something people don’t worry about but really should?", "What song is stuck in your head right now?", "What movie would be greatly improved if it was made into a musical?", "What's the most useless talent you have?", "If you have 30 minutes to kill before going somewhere, what do you do?", "What is the worst tasting thing you have ever eaten?", "What's something you really resent paying for?", "If you had to bury a treasure chest, where would you hide it?", "What's your favorite color and favorite thing that is that color?", "How do you usually get your news?", "You're going on a road trip! What two items do you make sure to bring with you?", "What is something you are utterly obsessed with at the moment?", "Do you ever remember your dreams? Have you had any weird ones that stuck with you?", "What's the most unique shop or restaurant you've been in?", "When people come to you for help, what do they usually want help with?", "If you could snap your fingers and learn a language, what language would you learn?", "Would you rather not be able to open any closed doors (locked or unlocked) or not be able to close any open doors?", "You're going to sail around the world, what's the name of your boat?", "What recent trend are you totally on board with?", "What app can you not believe someone hasn't made yet?", "What takes a lot of time but is totally worth it?", "What's the longest line you've ever waited in? Was it worth it?", "What would you choose as the 8th wonder of the world?", "How do you feel about putting pineapple on pizza?", "What's something you do differently than most other people?", "If you had a year of free time to learn or hone any skill, what would you do?", "What's the most interesting thing you've seen online this week?", "Would you ever try space tourism if you had the money for it?", "Would you rather be transported permanently 500 years into the future or 500 years into the past?", "What game have you spent the most hours playing?", "Do you enjoy spicy food? What's the spiciest thing you've ever eaten?", "What was the last thing you read about, digitally or in print, that you found interesting?", "When you were younger, what did you think would be awesome about being older, but isn't as awesome as you thought it would be?", "What's one thing that gets far too much coverage on the news?"],
+        "deadChatPingsRoleID": "",
+        "reviverlogourl": "https://hyperz.dev/images/uploads/3dzynfv9.png",
+
+        "serverinvite": "https://discord.com/invite/zTd8J5VCWx",
+        "staple_never_change": "139042"
+    }
+}
