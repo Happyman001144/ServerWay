@@ -171,7 +171,7 @@
         "enabled": true,
 
         "reactions": [
-            {"roleid": "855151918736867334", "messageid": "856233780804583475", "workflow": 1, ":strawberry:": "🍓"}
+            {"roleid": "855151918736867334", "messageid": "856233780804583475", "workflow": 1, "reactionname": "🍓"}
         ]
     },
 
