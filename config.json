@@ -28,10 +28,10 @@
     "new_user_config": {
         "enabled": true,
 
-        "useVerificationSystem": false,
+        "useVerificationSystem": true,
         "verifiedroleids": ["855151918736867336"],
 
-        "useautorole": true,
+        "useautorole": false,
         "memberroleids": ["855151918736867336"],
 
         "useembeds": true,
