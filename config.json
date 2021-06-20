@@ -29,10 +29,10 @@
         "enabled": true,
 
         "useVerificationSystem": false,
-        "verifiedroleids": ["your-roles-to-specify-verified-users"],
+        "verifiedroleids": ["856080849022484480"],
 
         "useautorole": true,
-        "memberroleids": ["855908293033197568"],
+        "memberroleids": ["856080849022484480"],
 
         "useembeds": true,
         "useservername": true,
