@@ -171,13 +171,13 @@
         "enabled": true,
 
         "reactions": [
-            {"roleid": "855151918736867334", "messageid": "856237185790115840", "workflow": 1, "reactionname": ":strawberry:"}
-            {"roleid": "855151918736867333", "messageid": "856237185790115840", "workflow": 2, "reactionname": ":grapes:"}
-            {"roleid": "855151918736867332", "messageid": "856237185790115840", "workflow": 3, "reactionname": ":pineapple:"}
-            {"roleid": "855151918736867331", "messageid": "856237185790115840", "workflow": 4, "reactionname": ":green_apple:"}
-            {"roleid": "855151918736867330", "messageid": "856237185790115840", "workflow": 5, "reactionname": ":banana:"}
-            {"roleid": "856083280259973140", "messageid": "856237185790115840", "workflow": 6, "reactionname": ":blueberries:"}
-            {"roleid": "856236845998014505", "messageid": "856237185790115840", "workflow": 7, "reactionname": ":melon:"}
+            {"roleid": "855151918736867334", "messageid": "856237185790115840", "workflow": 1, "reactionname": "🍓"},
+            {"roleid": "855151918736867333", "messageid": "856237185790115840", "workflow": 2, "reactionname": "🍇"},
+            {"roleid": "855151918736867332", "messageid": "856237185790115840", "workflow": 3, "reactionname": "🍍"},
+            {"roleid": "855151918736867331", "messageid": "856237185790115840", "workflow": 4, "reactionname": "🍏"},
+            {"roleid": "855151918736867330", "messageid": "856237185790115840", "workflow": 5, "reactionname": "🍌"},
+            {"roleid": "856083280259973140", "messageid": "856237185790115840", "workflow": 6, "reactionname": "🍒"},
+            {"roleid": "856236845998014505", "messageid": "856237185790115840", "workflow": 7, "reactionname": "🍈"}
         ]
     },
 
