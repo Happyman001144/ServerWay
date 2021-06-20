@@ -142,8 +142,8 @@
     "giveaways_config": {
         "enabled": true,
 
-        "startgiveawaymessage": "@everyone\n\n🎉🎉 **GIVEAWAY** 🎉🎉",
-        "endgiveawaymessage": "@everyone\n\n🎉🎉 **GIVEAWAY ENDED** 🎉🎉",
+        "startgiveawaymessage": "@『🎉』Giveaway Ping\n\n🎉🎉 **GIVEAWAY** 🎉🎉",
+        "endgiveawaymessage": "@『🎉』Giveaway Ping\n\n🎉🎉 **GIVEAWAY ENDED** 🎉🎉",
 
         "updateCountdownEvery": 10000,
         "hasGuildMembersIntent": false,
