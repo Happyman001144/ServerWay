@@ -28,10 +28,10 @@
     "new_user_config": {
         "enabled": true,
 
-        "useVerificationSystem": true,
+        "useVerificationSystem": false,
         "verifiedroleids": ["856080849022484480"],
 
-        "useautorole": false,
+        "useautorole": true,
         "memberroleids": ["856080849022484480"],
 
         "useembeds": true,
@@ -178,15 +178,15 @@
     },
 
     "permissions_config": {
-        "staffperms": ["855882699449172039"],
-        "blacklistperms": ["855882699449172039"],
-        "ticketmanagers": ["855882699449172039"],
-        "assistantmanagers": ["855882699449172039"],
-        "revivechatperms": ["855882699449172039"],
-        "stickymsgperms": ["855882699449172039"],
-        "giveawayperms": ["855882699449172039"],
-        "serverlockperms": ["855882699449172039"],
-        "bypassfilters": ["855882699449172039"]
+        "staffperms": ["855151918750105636"],
+        "blacklistperms": ["855151918750105636"],
+        "ticketmanagers": ["855151918750105636"],
+        "assistantmanagers": ["855151918750105636"],
+        "revivechatperms": ["855151918750105636"],
+        "stickymsgperms": ["855151918750105636"],
+        "giveawayperms": ["855151918750105636"],
+        "serverlockperms": ["855151918750105636"],
+        "bypassfilters": ["855151918750105636"]
     },
 
     "logging_config": {
@@ -233,9 +233,9 @@
         "removeBlacklistImageURL": "https://www.pngkey.com/png/full/89-899418_broken-handcuffs-broken-handcuffs-transparent.png",
         "autoBanImageURL": "https://i.dlpng.com/static/png/5322872-thor-logo-free-logo-download-allogos-thor-logo-png-1000_1000_preview.png",
 
-        "useReviver": false,
+        "useReviver": true,
         "reviver_messages": ["What’s something people don’t worry about but really should?", "What song is stuck in your head right now?", "What movie would be greatly improved if it was made into a musical?", "What's the most useless talent you have?", "If you have 30 minutes to kill before going somewhere, what do you do?", "What is the worst tasting thing you have ever eaten?", "What's something you really resent paying for?", "If you had to bury a treasure chest, where would you hide it?", "What's your favorite color and favorite thing that is that color?", "How do you usually get your news?", "You're going on a road trip! What two items do you make sure to bring with you?", "What is something you are utterly obsessed with at the moment?", "Do you ever remember your dreams? Have you had any weird ones that stuck with you?", "What's the most unique shop or restaurant you've been in?", "When people come to you for help, what do they usually want help with?", "If you could snap your fingers and learn a language, what language would you learn?", "Would you rather not be able to open any closed doors (locked or unlocked) or not be able to close any open doors?", "You're going to sail around the world, what's the name of your boat?", "What recent trend are you totally on board with?", "What app can you not believe someone hasn't made yet?", "What takes a lot of time but is totally worth it?", "What's the longest line you've ever waited in? Was it worth it?", "What would you choose as the 8th wonder of the world?", "How do you feel about putting pineapple on pizza?", "What's something you do differently than most other people?", "If you had a year of free time to learn or hone any skill, what would you do?", "What's the most interesting thing you've seen online this week?", "Would you ever try space tourism if you had the money for it?", "Would you rather be transported permanently 500 years into the future or 500 years into the past?", "What game have you spent the most hours playing?", "Do you enjoy spicy food? What's the spiciest thing you've ever eaten?", "What was the last thing you read about, digitally or in print, that you found interesting?", "When you were younger, what did you think would be awesome about being older, but isn't as awesome as you thought it would be?", "What's one thing that gets far too much coverage on the news?"],
-        "deadChatPingsRoleID": "",
+        "deadChatPingsRoleID": "856083536745201685",
         "reviverlogourl": "https://hyperz.dev/images/uploads/3dzynfv9.png",
 
         "serverinvite": "https://discord.com/invite/zTd8J5VCWx",
