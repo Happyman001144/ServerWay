@@ -28,23 +28,23 @@
     "new_user_config": {
         "enabled": true,
 
-        "useVerificationSystem": true,
-        "verifiedroleids": ["856080849022484480"],
+        "useVerificationSystem": false,
+        "verifiedroleids": ["855151918736867336"],
 
-        "useautorole": false,
-        "memberroleids": ["856080849022484480"],
+        "useautorole": true,
+        "memberroleids": ["855151918736867336"],
 
         "useembeds": true,
         "useservername": true,
 
         "usejoinmessage": true,
         "userjoinchannels": ["855151919310700647"],
-        "userjoinheader": "Welcome to the official ServerWay discord server!",
+        "userjoinheader": "Welcome User!",
         "userjoinmessage": "Please read the rules channel before taking part in the server!",
 
         "useleavemessage": true,
         "userleavechannels": ["855151919310700647"],
-        "userleaveheader": "Goodbye, thanks for visiting the official ServerWay discord server!",
+        "userleaveheader": "Goodbye User!",
         "userleavemessage": "We hope you enjoyed your stay!"
     },
 
