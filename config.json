@@ -172,12 +172,12 @@
 
         "reactions": [
             {"roleid": "855151918736867334", "messageid": "856240631046471760", "workflow": 1, "reactionname": "🍓"},
-            {"roleid": "855151918736867333", "messageid": "856240631046471760", "workflow": 2, "reactionname": "🍇"},
-            {"roleid": "855151918736867332", "messageid": "856240631046471760", "workflow": 3, "reactionname": "🍍"},
-            {"roleid": "855151918736867331", "messageid": "856240631046471760", "workflow": 4, "reactionname": "🍏"},
-            {"roleid": "855151918736867330", "messageid": "856240631046471760", "workflow": 5, "reactionname": "🍌"},
-            {"roleid": "856083280259973140", "messageid": "856240631046471760", "workflow": 6, "reactionname": "🍒"},
-            {"roleid": "856236845998014505", "messageid": "856240631046471760", "workflow": 7, "reactionname": "🍈"}
+            {"roleid": "855151918736867333", "messageid": "856240631046471760", "workflow": 1, "reactionname": "🍇"},
+            {"roleid": "855151918736867332", "messageid": "856240631046471760", "workflow": 1, "reactionname": "🍍"},
+            {"roleid": "855151918736867331", "messageid": "856240631046471760", "workflow": 1, "reactionname": "🍏"},
+            {"roleid": "855151918736867330", "messageid": "856240631046471760", "workflow": 1, "reactionname": "🍌"},
+            {"roleid": "856083280259973140", "messageid": "856240631046471760", "workflow": 1, "reactionname": "🍒"},
+            {"roleid": "856236845998014505", "messageid": "856240631046471760", "workflow": 1, "reactionname": "🍈"}
         ]
     },
 
